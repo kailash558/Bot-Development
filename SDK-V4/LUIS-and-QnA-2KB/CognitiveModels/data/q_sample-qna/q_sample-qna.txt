@@ -1,0 +1,53 @@
+What is Microsoft Bot Framework
+What steps are included in a bot's life cycle
+What features are provided by Azure bot service
+What all tools do we need to develop a bot using Azure
+Hi
+Hello
+Hlw
+Hey
+What is Cloud service
+what is cloud services
+what are cloud services
+describe cloud service
+What is Cloud computing
+Which cloud platforms are available in market
+what are cloud services available
+cloud technologies
+What is a Knowledge Base
+How to create a Knowledge Base using Azure
+How to create a LUIS app
+How to create a bot with Azure Bot Service
+How to develop a bot using Azure
+How to develop a bot locally created in Azure
+What is Bot Framework Emulator
+How to test a bot with emulator
+How to debug a bot with emulator
+How to connect a bot to emulator
+What is a Dispatch in Azure Bot Service
+What is Dispatch
+What is Dispatch Tool
+What is use of Dispatch tool
+How to solve ' address already in use :::3978' Error
+Getting 'address already in use :::3978' error
+What is LUIS
+How to use multiple LUIS and Qna models
+How to create Dispatch model
+How to use LUIS to distribute Knowledge bases in C#
+how to use multiple knowledge bases in c#
+What is Azure Resource Manager
+What is ARM
+What is Microsoft Azure
+What is Azure Cloud Service
+what is azure
+How to deploy a Node.js bot on Azure 
+How to use more than one knowledge base in a single bot in Node.js environment
+how to use multiple knowledge bases in Node.js
+Whats is QnA Maker Knowledge Base limits
+limit of knowledge base
+What is Azure Bot Service
+about azure bot service
+How can you help me
+How to resolve "The 'packages' element is not declared" error in C# bot
+What is difference between Cloud services and web services
+Hero card

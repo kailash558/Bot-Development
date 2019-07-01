@@ -1,0 +1,2 @@
+Utterance	Intents
+what is microsoft bot framework	l_luis, q_sample-qna
