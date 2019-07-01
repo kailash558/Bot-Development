@@ -98,9 +98,7 @@ namespace Microsoft.BotBuilderSamples
                 else
                 {
                     await turnContext.SendActivityAsync(MessageFactory.Text(results.First().Answer), cancellationToken);
-                }
-
-                
+                } 
             }
             else
             {
@@ -130,7 +128,6 @@ namespace Microsoft.BotBuilderSamples
                 new CardImage(url = imageURL)
             };
             return card.ToAttachment();
-
         }
     }
 }
