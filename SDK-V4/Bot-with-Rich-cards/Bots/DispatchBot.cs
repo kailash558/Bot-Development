@@ -71,7 +71,7 @@ namespace Microsoft.BotBuilderSamples
             var topIntent = result.TopScoringIntent.Intent; 
             
             await turnContext.SendActivityAsync(MessageFactory.Text($"Luis top intent {topIntent}."), cancellationToken);
-            //await turnContext.SendActivityAsync(MessageFactory.Text($"Luis intents detected:\n\n{string.Join("\n\n", result.Intents.Select(i => i.Intent))}"), cancellationToken);
+            
             if (luisResult.Entities.Count > 0)
             {
                 await turnContext.SendActivityAsync(MessageFactory.Text($"Luis entities were found in the message:\n\n{string.Join("\n\n", result.Entities.Select(i => i.Entity))}"), cancellationToken);
@@ -86,11 +86,6 @@ namespace Microsoft.BotBuilderSamples
             if (results.Any())
             {
                 var ans = results.First().Answer;
-                //var answer = MessageFactory.Text(results.First().Answer);
-                //await turnContext.SendActivityAsync(MessageFactory.Text(results.First().Answer), cancellationToken);
-                //var ans = answer.ToString();
-                //var attachment = GetHeroCard(ans);
-                //var reply = MessageFactory.Attachment(attachment);
                 string[] qnaAnswerData = ans.Split(';');
                 int dataSize = qnaAnswerData.Length;
                 if (dataSize > 1 && dataSize <= 6)
