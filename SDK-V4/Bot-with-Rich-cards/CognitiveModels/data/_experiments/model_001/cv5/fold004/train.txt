@@ -1,0 +1,109 @@
+Label	Weight	Text
+l_luis	1	what can i say
+l_luis	1	features of azure
+l_luis	1	qna maker knowledge base limits
+l_luis	1	how to create luis app
+l_luis	1	how to create knowledge base
+l_luis	1	the 'packages' element is not declared error
+l_luis	1	what is resource manager
+l_luis	1	please help me
+l_luis	1	about knowledge base
+l_luis	1	why doesn't this work
+l_luis	1	how to multiple knowledge bases in a single bot in node.js
+l_luis	1	what are cloud services
+l_luis	1	hiya
+l_luis	1	what is microsoft bot framework
+l_luis	1	what is cloud service
+l_luis	1	how are you doing today
+l_luis	1	bot's life cycle
+l_luis	1	what is web service
+l_luis	1	how are you doing
+l_luis	1	how to use multiple luis and qna models
+l_luis	1	how are you today
+l_luis	1	create dispatch model
+l_luis	1	hello
+l_luis	1	how to deploy a node.js bot on azure
+l_luis	1	help me
+l_luis	1	good afternoon
+l_luis	1	multiple knowledge base in node.js
+l_luis	1	what is azure bot service
+l_luis	1	i am stuck
+l_luis	1	how are you
+l_luis	1	i'm stuck
+l_luis	1	what is azure cloud service
+l_luis	1	what is phrase list feature in luis
+l_luis	1	what is luis
+l_luis	1	hi bot
+l_luis	1	features provided by azure bot service
+l_luis	1	what can you do
+l_luis	1	hello bot
+l_luis	1	good night
+l_luis	1	difference between cloud services and web services
+l_luis	1	different cloud technologies
+l_luis	1	create a bot with azure bot service
+l_luis	1	what can you help me with
+l_luis	1	tools need to develop a bot with azure
+l_luis	1	help me please
+l_luis	1	what is arm
+l_luis	1	multiple knowledge bases in c#
+l_luis	1	what cloud platforms are available in market
+l_luis	1	help please
+l_luis	1	good morning
+None	1	don't do that
+None	1	please cancel
+None	1	please stop
+None	1	do not do it
+None	1	how far is the mountainn
+None	1	disregard
+None	1	what we do
+None	1	do not do that
+None	1	stop
+None	1	abort
+None	1	don't do it
+None	1	never mind
+None	1	there is a large deep dish pizza in your future.
+None	1	i would like to cancel
+None	1	what about chennai weather
+None	1	don't
+q_sample-qna	1	How to use LUIS to distribute Knowledge bases in C#
+q_sample-qna	1	Hey
+q_sample-qna	1	How to create Dispatch model
+q_sample-qna	1	cloud technologies
+q_sample-qna	1	What is Bot Framework Emulator
+q_sample-qna	1	How to use multiple LUIS and Qna models
+q_sample-qna	1	What is difference between Cloud services and web services
+q_sample-qna	1	How to create a Knowledge Base using Azure
+q_sample-qna	1	Hello
+q_sample-qna	1	Whats is QnA Maker Knowledge Base limits
+q_sample-qna	1	What is Azure Bot Service
+q_sample-qna	1	what is azure
+q_sample-qna	1	How can you help me
+q_sample-qna	1	what are cloud services
+q_sample-qna	1	limit of knowledge base
+q_sample-qna	1	How to develop a bot using Azure
+q_sample-qna	1	How to debug a bot with emulator
+q_sample-qna	1	What is Microsoft Bot Framework
+q_sample-qna	1	What is a Dispatch in Azure Bot Service
+q_sample-qna	1	What is Dispatch
+q_sample-qna	1	What is ARM
+q_sample-qna	1	What is Azure Resource Manager
+q_sample-qna	1	What is use of Dispatch tool
+q_sample-qna	1	How to test a bot with emulator
+q_sample-qna	1	what is cloud services
+q_sample-qna	1	What is Azure Cloud Service
+q_sample-qna	1	How to resolve "The 'packages' element is not declared" error in C# bot
+q_sample-qna	1	How to deploy a Node.js bot on Azure
+q_sample-qna	1	How to solve ' address already in use :::3978' Error
+q_sample-qna	1	Hi
+q_sample-qna	1	What is Dispatch Tool
+q_sample-qna	1	How to use more than one knowledge base in a single bot in Node.js environment
+q_sample-qna	1	about azure bot service
+q_sample-qna	1	describe cloud service
+q_sample-qna	1	What is Microsoft Azure
+q_sample-qna	1	How to create a bot with Azure Bot Service
+q_sample-qna	1	What all tools do we need to develop a bot using Azure
+q_sample-qna	1	Getting 'address already in use :::3978' error
+q_sample-qna	1	How to develop a bot locally created in Azure
+q_sample-qna	1	Which cloud platforms are available in market
+q_sample-qna	1	how to use multiple knowledge bases in Node.js
+q_sample-qna	1	Hero card

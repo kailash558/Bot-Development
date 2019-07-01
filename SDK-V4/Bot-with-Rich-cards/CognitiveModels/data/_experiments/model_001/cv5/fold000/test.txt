@@ -1,0 +1,28 @@
+Label	Weight	Text
+l_luis	1	what can i say
+l_luis	1	features of azure
+l_luis	1	qna maker knowledge base limits
+l_luis	1	how to create luis app
+l_luis	1	how to create knowledge base
+l_luis	1	the 'packages' element is not declared error
+l_luis	1	what is resource manager
+l_luis	1	please help me
+l_luis	1	about knowledge base
+l_luis	1	why doesn't this work
+l_luis	1	how to multiple knowledge bases in a single bot in node.js
+l_luis	1	what are cloud services
+None	1	don't do that
+None	1	please cancel
+None	1	please stop
+None	1	do not do it
+q_sample-qna	1	How to use LUIS to distribute Knowledge bases in C#
+q_sample-qna	1	Hey
+q_sample-qna	1	How to create Dispatch model
+q_sample-qna	1	cloud technologies
+q_sample-qna	1	What is Bot Framework Emulator
+q_sample-qna	1	How to use multiple LUIS and Qna models
+q_sample-qna	1	What is difference between Cloud services and web services
+q_sample-qna	1	How to create a Knowledge Base using Azure
+q_sample-qna	1	Hello
+q_sample-qna	1	Whats is QnA Maker Knowledge Base limits
+q_sample-qna	1	What is Azure Bot Service

@@ -1,0 +1,28 @@
+Label	Weight	Text
+l_luis	1	what is bot framework emulator
+l_luis	1	help
+l_luis	1	what is cloud computing
+l_luis	1	what is dispatch
+l_luis	1	about luis
+l_luis	1	limit of kb
+l_luis	1	what do i do now
+l_luis	1	hi
+l_luis	1	what do i do
+l_luis	1	how to use multiple knowledge bases in a single bot in c#
+l_luis	1	what is azure
+l_luis	1	good evening
+None	1	my water bottle is green.
+None	1	cancel
+None	1	please disregard
+None	1	what gbs transformation office does
+q_sample-qna	1	what are cloud services available
+q_sample-qna	1	How to connect a bot to emulator
+q_sample-qna	1	Hlw
+q_sample-qna	1	What features are provided by Azure bot service
+q_sample-qna	1	How to create a LUIS app
+q_sample-qna	1	how to use multiple knowledge bases in c#
+q_sample-qna	1	What steps are included in a bot's life cycle
+q_sample-qna	1	What is Cloud computing
+q_sample-qna	1	What is LUIS
+q_sample-qna	1	What is a Knowledge Base
+q_sample-qna	1	What is Cloud service

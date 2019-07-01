@@ -1,0 +1,15 @@
+Utterance	Intents
+what are cloud services	l_luis, q_sample-qna
+what is azure bot service	l_luis, q_sample-qna
+what is luis	l_luis, q_sample-qna
+what is dispatch	l_luis, q_sample-qna
+what is azure cloud service	l_luis, q_sample-qna
+how to deploy a node.js bot on azure	l_luis, q_sample-qna
+what is cloud computing	l_luis, q_sample-qna
+how to use multiple luis and qna models	l_luis, q_sample-qna
+what is cloud service	l_luis, q_sample-qna
+hello	l_luis, q_sample-qna
+what is bot framework emulator	l_luis, q_sample-qna
+hi	l_luis, q_sample-qna
+what is azure	l_luis, q_sample-qna
+what is microsoft bot framework	l_luis, q_sample-qna

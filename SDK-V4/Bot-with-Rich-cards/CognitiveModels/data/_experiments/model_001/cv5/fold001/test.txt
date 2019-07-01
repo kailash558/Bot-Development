@@ -1,0 +1,28 @@
+Label	Weight	Text
+l_luis	1	hiya
+l_luis	1	what is microsoft bot framework
+l_luis	1	what is cloud service
+l_luis	1	how are you doing today
+l_luis	1	bot's life cycle
+l_luis	1	what is web service
+l_luis	1	how are you doing
+l_luis	1	how to use multiple luis and qna models
+l_luis	1	how are you today
+l_luis	1	create dispatch model
+l_luis	1	hello
+l_luis	1	how to deploy a node.js bot on azure
+None	1	how far is the mountainn
+None	1	disregard
+None	1	what we do
+None	1	do not do that
+q_sample-qna	1	what is azure
+q_sample-qna	1	How can you help me
+q_sample-qna	1	what are cloud services
+q_sample-qna	1	limit of knowledge base
+q_sample-qna	1	How to develop a bot using Azure
+q_sample-qna	1	How to debug a bot with emulator
+q_sample-qna	1	What is Microsoft Bot Framework
+q_sample-qna	1	What is a Dispatch in Azure Bot Service
+q_sample-qna	1	What is Dispatch
+q_sample-qna	1	What is ARM
+q_sample-qna	1	What is Azure Resource Manager

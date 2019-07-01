@@ -1,0 +1,62 @@
+about knowledge base
+about luis
+bot's life cycle
+create a bot with azure bot service
+create dispatch model
+difference between cloud services and web services
+different cloud technologies
+features of azure
+features provided by azure bot service
+good afternoon
+good evening
+good morning
+good night
+hello
+hello bot
+help
+help me
+help me please
+help please
+hi
+hi bot
+hiya
+how are you
+how are you doing today
+how are you doing
+how are you today
+how to create knowledge base
+how to create luis app
+how to deploy a node.js bot on azure
+how to multiple knowledge bases in a single bot in node.js
+how to use multiple knowledge bases in a single bot in c#
+how to use multiple luis and qna models
+i am stuck
+i'm stuck
+limit of kb
+multiple knowledge base in node.js
+multiple knowledge bases in c#
+please help me
+qna maker knowledge base limits
+the 'packages' element is not declared error
+tools need to develop a bot with azure
+what are cloud services
+what can i say
+what can you do
+what can you help me with
+what cloud platforms are available in market
+what do i do now
+what do i do
+what is arm
+what is azure
+what is azure bot service
+what is azure cloud service
+what is bot framework emulator
+what is cloud computing
+what is cloud service
+what is dispatch
+what is luis
+what is microsoft bot framework
+what is phrase list feature in luis
+what is resource manager
+what is web service
+why doesn't this work 

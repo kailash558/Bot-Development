@@ -1,0 +1,2 @@
+Utterance	Intents
+what is cloud computing	l_luis, q_sample-qna

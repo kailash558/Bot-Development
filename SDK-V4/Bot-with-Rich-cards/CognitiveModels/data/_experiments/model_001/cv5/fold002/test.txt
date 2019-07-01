@@ -1,0 +1,28 @@
+Label	Weight	Text
+l_luis	1	help me
+l_luis	1	good afternoon
+l_luis	1	multiple knowledge base in node.js
+l_luis	1	what is azure bot service
+l_luis	1	i am stuck
+l_luis	1	how are you
+l_luis	1	i'm stuck
+l_luis	1	what is azure cloud service
+l_luis	1	what is phrase list feature in luis
+l_luis	1	what is luis
+l_luis	1	hi bot
+l_luis	1	features provided by azure bot service
+None	1	stop
+None	1	abort
+None	1	don't do it
+None	1	never mind
+q_sample-qna	1	What is use of Dispatch tool
+q_sample-qna	1	How to test a bot with emulator
+q_sample-qna	1	what is cloud services
+q_sample-qna	1	What is Azure Cloud Service
+q_sample-qna	1	How to resolve "The 'packages' element is not declared" error in C# bot
+q_sample-qna	1	How to deploy a Node.js bot on Azure
+q_sample-qna	1	How to solve ' address already in use :::3978' Error
+q_sample-qna	1	Hi
+q_sample-qna	1	What is Dispatch Tool
+q_sample-qna	1	How to use more than one knowledge base in a single bot in Node.js environment
+q_sample-qna	1	about azure bot service

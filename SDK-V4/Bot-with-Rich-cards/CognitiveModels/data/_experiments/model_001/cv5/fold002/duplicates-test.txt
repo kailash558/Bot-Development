@@ -1,0 +1,2 @@
+Utterance	Intents
+what is azure cloud service	l_luis, q_sample-qna
