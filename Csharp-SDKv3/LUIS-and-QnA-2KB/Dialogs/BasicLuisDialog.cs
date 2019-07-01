@@ -83,24 +83,24 @@ public class QnAMakerService
 
 namespace Microsoft.Bot.Sample.LuisBot
 {
-    // For more information about this template visit http://aka.ms/azurebots-csharp-luis
+
     [Serializable]
     public class BasicLuisDialog : LuisDialog<object>
     {
-        //static string LUIS_appId = "b92365ca-9dec-474a-b700-49b0d5d421aa";
-   // static string LUIS_apiKey = "2a33432adef64b798e4e587a8a85070d";
+        //static string LUIS_appId = "Luis-app-id";
+   // static string LUIS_apiKey = "Luis-API-key";
     //static string LUIS_hostRegion = "westus.api.cognitive.microsoft.com";
 
     // QnA Maker global settings
     // assumes all KBs are created with same Azure service
-        static string qnamaker_endpointKey = "1f801f3f-39f6-4d75-aa58-9c69a191c7e8";
+        static string qnamaker_endpointKey = "KB-endpoint-key";
         static string qnamaker_endpointDomain = "myfaqbot";
     
-        // QnA Maker Telegram Knowledge base
-        static string chitChat_kbID = "62b1ce1e-9d3f-4169-807f-825835861a46";
+        // QnA Maker Chitchat Knowledge base
+        static string chitChat_kbID = "KB-1-ID";
     
         // QnA Maker Azure - Bot Development Knowledge base
-        static string azure_kbID = "080f30ec-0b67-4d45-9359-a90c841281ba";
+        static string azure_kbID = "KB-2-ID";
     
         // Instantiate the knowledge bases
         public QnAMakerService chitChatQnAService = new QnAMakerService("https://" + qnamaker_endpointDomain + ".azurewebsites.net", chitChat_kbID, qnamaker_endpointKey);
@@ -119,9 +119,7 @@ namespace Microsoft.Bot.Sample.LuisBot
         {
             HttpClient client = new HttpClient();
             await this.ShowLuisResult(context, result);
-            //  var qnaMakerAnswer = await azureQnAService.GetAnswer(result.Query);
-            //  await context.PostAsync($"{qnaMakerAnswer}");
-            //  context.Wait(MessageReceived);
+
         }
         
         // azureBot intent
@@ -154,16 +152,9 @@ namespace Microsoft.Bot.Sample.LuisBot
             await context.PostAsync($"{qnaMakerAnswer}");
             context.Wait(MessageReceived);
         }
-        /*
-        [LuisIntent("Cancel")]
-        public async Task CancelIntent(IDialogContext context, LuisResult result){
-            HttpClient client = new HttpClient();
-            await this.ShowLuisResult(context, result);
-        }
-        */
+
         private async Task ShowLuisResult(IDialogContext context, LuisResult result)
         {
-            //await context.PostAsync($"You have reached {result.Intents[0].Intent}. You said: {result.Query}");
             await context.PostAsync("No good answer found in KB");
             context.Wait(MessageReceived);
         }
