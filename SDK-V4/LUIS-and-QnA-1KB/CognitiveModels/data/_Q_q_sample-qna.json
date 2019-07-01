@@ -1,0 +1,623 @@
+{
+  "qnaDocuments": [
+    {
+      "id": 1,
+      "answer": "**Microsoft Bot Framework** is a comprehensive framework for building enterprise-grade conversational AI experiences.\n\nMicrosoft bot framework offers-\n\n* Bot framework SDK fro developing bots.\n\n* Bot framework tools to cover end-to-end bot development workflow.\n\n* Bot framework services to send and receive messages and events between bots and channels.\n\n* Bot Deployment and channel configuration in Azure portal.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What is Microsoft Bot Framework?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 2,
+      "answer": "Bot's life cycle is defined by following steps -\n\n1. Design\n\n2. Development\n\n3. Testing\n\n4. Publishing Bot\n\n5. Connection to channels\n\n6. Evaluation and Improvements.\n\nFor more details [see this](https://dev.botframework.com/).",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What steps are included in a bot's life cycle?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 3,
+      "answer": "Azure Bot Service reduces requirement of writing a lot of code by providing direct features. It provides following main features -\n\n* Natural Language Process\n\n* Questions and Answer Service\n\n* Management of multiple models in a single bot\n\n* Addition of cards and buttons",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What features are provided by Azure bot service?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "[\r\n  {\r\n    \"clusterHead\": \"features of azure\",\r\n    \"totalAutoSuggestedCount\": 4,\r\n    \"totalUserSuggestedCount\": 0,\r\n    \"alternateQuestionList\": [\r\n      {\r\n        \"question\": \"features of azure\",\r\n        \"autoSuggestedCount\": 4,\r\n        \"userSuggestedCount\": 0\r\n      }\r\n    ]\r\n  }\r\n]",
+      "alternateQuestionClusters": [
+        {
+          "clusterHead": "features of azure",
+          "totalAutoSuggestedCount": 4,
+          "totalUserSuggestedCount": 0,
+          "alternateQuestionList": [
+            {
+              "question": "features of azure",
+              "autoSuggestedCount": 4,
+              "userSuggestedCount": 0
+            }
+          ]
+        }
+      ],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 4,
+      "answer": "To use Azure bot service, we need a azure account and subscription. Azure also provide one month free subscription and some account credits to try out azure services. So tools required to develop a chat bot using Azure, a user need -\n\n* Knowledge of C# or Node.js \n\n* Visual Studio or Visual Studio Code\n\n*  Microsoft Bot Framework Emulator ([Download here](https://github.com/Microsoft/BotFramework-Emulator/releases/tag/v4.4.2))\n\n* Azure CLI ([Download here](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest))\n\n* QnA Service ([Available here](qnamaker.ai))\n\n* LUIS (optional) ([Available here](luis.ai))",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What all tools do we need to develop a bot using Azure?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 5,
+      "answer": "Hi!, I am here to help you.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "Hi",
+        "Hello",
+        "Hlw",
+        "Hey"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 6,
+      "answer": "A Cloud Service is a service made available to users on demand via the internet from a cloud computing providers' servers as opposed to being provided from a company's own on-premises servers. Cloud services are designed to provide easy, scalable access to applications, resources and are fully managed by a cloud services provider.\n\n**Cloud Services are Dynamic and Scale**\n\n A cloud service can dynamically scale to meet the needs of its users and because the service provider supplies the hardware and software necessary for the service, there is no need for a company to provision or deploy its own resources.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What is Cloud service?",
+        "what is cloud services",
+        "what are cloud services",
+        "describe cloud service"
+      ],
+      "metadata": [],
+      "alternateQuestions": "[\r\n  {\r\n    \"clusterHead\": \"differernt cloud services\",\r\n    \"totalAutoSuggestedCount\": 1,\r\n    \"totalUserSuggestedCount\": 0,\r\n    \"alternateQuestionList\": [\r\n      {\r\n        \"question\": \"differernt cloud services\",\r\n        \"autoSuggestedCount\": 1,\r\n        \"userSuggestedCount\": 0\r\n      }\r\n    ]\r\n  }\r\n]",
+      "alternateQuestionClusters": [
+        {
+          "clusterHead": "differernt cloud services",
+          "totalAutoSuggestedCount": 1,
+          "totalUserSuggestedCount": 0,
+          "alternateQuestionList": [
+            {
+              "question": "differernt cloud services",
+              "autoSuggestedCount": 1,
+              "userSuggestedCount": 0
+            }
+          ]
+        }
+      ],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 7,
+      "answer": "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. The term is generally used to describe data centers available to many users over the internet. Cloud computing services are categorized in three types -\n\n* Infrastructure as a Service (IaaS)\n\n* Platform as a Service (PaaS)\n\n* Software as a Service (SaaS)\n\nNeed more details? [Click here](https://searchcloudcomputing.techtarget.com/definition/cloud-computing)\n",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What is Cloud computing?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 8,
+      "answer": "Some different Cloud service platforms available in market are-\n\n* [Amazon Web Services](https://aws.amazon.com/) by Amazon\n\n* [Microsoft Azure](https://azure.microsoft.com/en-us/) by Microsoft\n\n* [Google Cloud Platform](https://cloud.google.com/) by Google\n\n* [Adobe](https://www.adobe.com/)\n\n* [VMware](https://www.vmware.com/)\n\n* [IBM Cloud](https://www.ibm.com/cloud/) by IBM\n\n* [Oracle Cloud](https://cloud.oracle.com/home) by Oracle\n\n* [Dropbox](https://www.dropbox.com/) by Dropbox Inc.\n\n* [Salesforce Cloud](https://www.salesforce.com/) by Salesforce Inc.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "Which cloud platforms are available in market?",
+        "what are cloud services available?",
+        "cloud technologies"
+      ],
+      "metadata": [],
+      "alternateQuestions": "[\r\n  {\r\n    \"clusterHead\": \"differernt cloud services\",\r\n    \"totalAutoSuggestedCount\": 1,\r\n    \"totalUserSuggestedCount\": 0,\r\n    \"alternateQuestionList\": [\r\n      {\r\n        \"question\": \"differernt cloud services\",\r\n        \"autoSuggestedCount\": 1,\r\n        \"userSuggestedCount\": 0\r\n      }\r\n    ]\r\n  }\r\n]",
+      "alternateQuestionClusters": [
+        {
+          "clusterHead": "differernt cloud services",
+          "totalAutoSuggestedCount": 1,
+          "totalUserSuggestedCount": 0,
+          "alternateQuestionList": [
+            {
+              "question": "differernt cloud services",
+              "autoSuggestedCount": 1,
+              "userSuggestedCount": 0
+            }
+          ]
+        }
+      ],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 9,
+      "answer": "Microsoft provides a cognitive service called QnA service. A Knowledge base is a QnA service. It is a collection of several questions and their answers which are used in conversation between bot and users. A knowledge bas e can be created by extracting question-and-answer pair from online FAQ, product manuals, or other files. Supported formats are .tsv, .pdf, .docx, .xlxs, containing questions and answers in sequence.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What is a Knowledge Base?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "[\r\n  {\r\n    \"clusterHead\": \"published knowledge base limit\",\r\n    \"totalAutoSuggestedCount\": 3,\r\n    \"totalUserSuggestedCount\": 0,\r\n    \"alternateQuestionList\": [\r\n      {\r\n        \"question\": \"published knowledge base limit\",\r\n        \"autoSuggestedCount\": 3,\r\n        \"userSuggestedCount\": 0\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"clusterHead\": \"limit of published knowledge base\",\r\n    \"totalAutoSuggestedCount\": 1,\r\n    \"totalUserSuggestedCount\": 0,\r\n    \"alternateQuestionList\": [\r\n      {\r\n        \"question\": \"limit of published knowledge base\",\r\n        \"autoSuggestedCount\": 1,\r\n        \"userSuggestedCount\": 0\r\n      }\r\n    ]\r\n  }\r\n]",
+      "alternateQuestionClusters": [
+        {
+          "clusterHead": "published knowledge base limit",
+          "totalAutoSuggestedCount": 3,
+          "totalUserSuggestedCount": 0,
+          "alternateQuestionList": [
+            {
+              "question": "published knowledge base limit",
+              "autoSuggestedCount": 3,
+              "userSuggestedCount": 0
+            }
+          ]
+        },
+        {
+          "clusterHead": "limit of published knowledge base",
+          "totalAutoSuggestedCount": 1,
+          "totalUserSuggestedCount": 0,
+          "alternateQuestionList": [
+            {
+              "question": "limit of published knowledge base",
+              "autoSuggestedCount": 1,
+              "userSuggestedCount": 0
+            }
+          ]
+        }
+      ],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 10,
+      "answer": "Create a knowledge base using QnA Maker API service Portal- \n\n1. Sign in to the QnA Maker Portal with your Azure credentials and select **Create a knowledge base**.\n\n2. If you have not already created a QnA maker service, select **Create a QnA service**.\n\n3. Select your Azure tenant, Azure subscription name, and Azure resource name associated with the QnA Maker service from the list in **Step 2** in the QnA Maker Portal. Select the Azure QnA maker servie that will host the Knowledge Base.\n\n4. Enter the name of Knowledge base and the data sources for the new knowledge base.\n\n5. Select **Create your KB**\n\n7. When your Knowledge base is successfully created, you are redirected to the **Knowledge base** page.\n\nFor more descriptive guide visit [this](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/create-knowledge-base) Microsoft's documentation page.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "How to create a Knowledge Base using Azure?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 11,
+      "answer": "Follow the steps to create a new LUIS app -\n\n1. Sign in to the LUIS portal on [luisa.ai](https://www.luis.ai/).\n\n2. Click on **My apps**.\n\n3. Select **Create new app**.\n\n4. In the dialog box, name your LUIS application.\n\n5. Choose your application culture.\n\n6. Now to your app and click **BUILD**.\n\n7. Now add intents, entities and utterances as per requirements.\n\n8. Train and test the LUIS app by clicking on **Train** and **Test** respectively.\n\n9. Finally publish the app to get the **endpoint URL**.\n\nYou can use [this](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-get-started-create-app) Microsoft document for guidance.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "How to create a LUIS app?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 12,
+      "answer": "Steps to create a new web bot service with Azure -\n\n1. Login to the Azure portal.\n\n2. Click **Create new resources** link found on the upper left-hand corner of the  Azure portal, then select **AI + Machine Learning** and then **Web App bot**.\n\n3. A *new blade* will open with information about the **Web App bot**.\n\n4. In the **Bot Service** blade, provide the requested information about your bot.\n\n5. Click **Create** to create the service and deploy the bot to the cloud.\n\nConfirm that the bot has been deployed by checking the **notifications**. The notifications will change from **Deployment in progress...** to **Deployment succeeded**. Click **Go to resources** button to open the bot's resource blade. \n\n6. In the **Bot Management** section, click **Test in Web Chat**.\n\nFollow the instructions in [this page](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart?view=azure-bot-service-4.0).",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "How to create a bot with Azure Bot Service?",
+        "How to develop a bot using Azure?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 13,
+      "answer": "Following guide can help you to develop a bot locally - \n\n1. Login to Azure Portal.\n\n2. Go to your bot's resources.\n\n3. In **Bot Management** section, select **Build** and then click **Download Bot Source code**. This will create a zip file for download.\n\n4. After downloading zip file, extract files from zip and develop bot as per requirement.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "How to develop a bot locally created in Azure?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 14,
+      "answer": "The **Bot Framework Emulator** is a desktop application that allows bot developers to test and debug their bots, either locally or remotely. Using the emulator, you can chat and debug your bot and inspect the messages that your bot sends ans receives. The emulator displays messages as they would appear in a web chat UI and logs JSON requests and responses as you exchange messages with your bot.\n\nTo connect a bot to emulator and to test the bot follow the guide in [this page](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-debug-emulator?view=azure-bot-service-4.0).",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What is Bot Framework Emulator?",
+        "How to test a bot with emulator?",
+        "How to debug a bot with emulator?",
+        "How to connect a bot to emulator?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 15,
+      "answer": "**Dispatch** is a tool to create and evaluate LUIS model used to dispatch intent across multiple bot modules such as LUIS models, QnA knowledge bases and others (added to dispatch as a file type).\n\nUse the Dispatch model in case when:\n\n1. Your bot consists of multiple modules and you need assistance in routing user's utterances to these modules and evaluate the bot integration.\n\n2. Evaluate quality of intents classification of a single LUIS model.\n\n3. Create a text classification model from text files.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What is a Dispatch in Azure Bot Service?",
+        "What is Dispatch?",
+        "What is Dispatch Tool?",
+        "What is use of Dispatch tool?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 16,
+      "answer": "Error: address already in use :::3978\n\nThis error arise when we run a locally developed bot in our machine and close the program without terminating execution of the program. So the port 3978 is still in use by this program. So when we run program again it will not be able to access this port.\n\nThis problem can be resolve by following steps -\n\n* Run **Command Prompt** as Admin.\n\n* Run command - ***taskkill /F /IM node.exe***.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "How to solve ' address already in use :::3978' Error?",
+        "Getting 'address already in use :::3978' error"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 17,
+      "answer": "LUIS stands for ***Language Understanding Intelligent Service***.\n\n.It is one of many Cognitive Services provided by Microsoft under **Azure Cognitive Services**. It is a machine learning-based service to build natural language into apps, bots and IoT devices. LUIS interprets user intents and identify valuable information from sentences. It also can be with integrated with speech.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What is LUIS?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 18,
+      "answer": "A **Dispatch** model is used to integrate LUIS and QnA models together. This dispatch model creates a LUIS app which includes an intent for all models used to create dispatch. Following steps follows Dispatch creation process -\n\n1. Create a LUIS app which recognize a particular intent.\n\n2. Create KB(s) as per requirement (single or Multiple).\n\n3. Open a command window and change directories to **CognitiveModels** folder.\n\n(This can be done by - Open then particular folder and in address bar type 'cmd' and hit 'enter')\n\n4. Now run following commands-\n\n\t`npm i -g npm`\n\n\t`npm -i botdispatch`\n\n5. Use `dispatch init` to initialize create a .dispatch file for dispatch model\n\n\t`dispatch init -n <filename-to-create> --luisAuthoringKey \"<your-luis-authoring-key>\" --luisAuthoringRegion <your-region> `\n\n6. Use `dispatch add` to add LUIS apps and QnA Maker KBs to the .dispatch file-\n\n**For Luis** -\n\n\t`dispatch add -t luis -i \"<app-id-for-luis-app>\" -n \"<name-of-luis-app>\" -v <app-version-number> -k \"<your-luis-authoring-key>\" --intentName l_luis`\n\n**For KB** -\n\n\t`dispatch add -t qna -i \"<knowledge-base-id>\" -n \"<knowledge-base-name>\" -k \"<azure-qna-service-key1>\" --intentName q_sample-qna`\n\n( 'qna-service-key1' is not a 'endpoint key' ok KB. Use 'qna-service-key1' from resources of bot.)\n\n(So add all required LUIS apps and KBs using above commands)\n\n7. Use `dispatch create` to generate a dispatch model from the .dispatch file-\n\n\t`dispatch create`\n\nNow use new dispatch luis **authoring key** and **application ID** in yout bot development.\n\nRefer [this page](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-tutorial-dispatch?view=azure-bot-service-4.0&tabs=js).",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "How to use multiple LUIS and Qna models?",
+        "How to create Dispatch model?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 19,
+      "answer": "As your QnA Maker knowledge base grows large, it becomes difficult to maintain it as a single monolithic set and there is a need to split the knowledge base into smaller logical chunks.\n\nWhile it is straightforward to create multiple knowledge bases in QnA Maker, you will need some logic to route the incoming question to the appropriate knowledge base. You can do this by using LUIS.\n\nFor Bot Framework v3 SDK, please see [this article](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/tutorials/integrate-qnamaker-luis) which provides information to distribute KBs and LUIS in C# environment. \n\nFor Bot Framework v4 SDK use **Dispatch** model.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "How to use LUIS to distribute Knowledge bases in C#?",
+        "how to use multiple knowledge bases in c#"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 20,
+      "answer": "Azure Resource Manager is the deployment and management service for Azure. It provides a consistent management layer that enables you to create, update, and delete resources in your Azure subscription. You can use its access control, auditing, and tagging features to secure and organize your resources after deployment.\n\nWhen you take actions through the portal, PowerShell, Azure CLI, REST APIs, or client SDKs, the Azure Resource Manager API handles your request. Because all requests are handled through the same API, you see consistent results and capabilities in all the different tools.\n\nFor more details click [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-overview).",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What is Azure Resource Manager?",
+        "What is ARM?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 21,
+      "answer": "Microsoft Azure is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers. It provides software as a service (SaaS), platform as a service (PaaS) and infrastructure as a service (IaaS) and supports many different programming languages, tools and frameworks, including both Microsoft-specific and third-party software and systems. \n\nFeatures of Azure Cloud Service -\n\n- Focus on apps, not on harware\n\n- Support for Java, Node.js, PHP, Python, .NET and Ruby\n\n- Auto scale to meet demand and save money.\n\n- Integrated health and load balancing.\n\n- Automatic operating system and application patching.\n\nMore details [here](https://azure.microsoft.com/en-in/services/cloud-services/) and [here](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-choose-me).",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What is Microsoft Azure?",
+        "What is Azure Cloud Service?",
+        "what is azure?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "[\r\n  {\r\n    \"clusterHead\": \"features of azure\",\r\n    \"totalAutoSuggestedCount\": 4,\r\n    \"totalUserSuggestedCount\": 0,\r\n    \"alternateQuestionList\": [\r\n      {\r\n        \"question\": \"features of azure\",\r\n        \"autoSuggestedCount\": 4,\r\n        \"userSuggestedCount\": 0\r\n      }\r\n    ]\r\n  }\r\n]",
+      "alternateQuestionClusters": [
+        {
+          "clusterHead": "features of azure",
+          "totalAutoSuggestedCount": 4,
+          "totalUserSuggestedCount": 0,
+          "alternateQuestionList": [
+            {
+              "question": "features of azure",
+              "autoSuggestedCount": 4,
+              "userSuggestedCount": 0
+            }
+          ]
+        }
+      ],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 22,
+      "answer": "A bot developed in Node.js environment can be deployed to Azure using **Visual Studio Code**. For this you need Visual Studio Code installed along with Node.js and npm, the Node.js package manager.\n\nThe Azure App Service Extension is used to create, manage and deploy bots on Azure.\n\n These are steps to deploy bot -\n\n1. Install the [Azure App Service Extension](vscode:extension/ms-azuretools.vscode-azureappservice). \n\n2. Once the extension is installed, log into your Azure account - in the **Activity Bar**, click on the **Azure logo** to show the **AZURE APP SERVICE** explorer. Click **Sign in to Azure...** and follow the instructions.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "How to deploy a Node.js bot on Azure ?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 23,
+      "answer": "[Here](https://github.com/Azure-Samples/cognitive-services-studybot-node/tree/master/qna-luis-botv4-node) is a Github sample files for bot development with four knowledge base. and LUIS. These samples can be referred to gain understanding to develop a bot with multiple KBs.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "How to use more than one knowledge base in a single bot in Node.js environment?",
+        "how to use multiple knowledge bases in Node.js"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 24,
+      "answer": "Maximum number of two published knowledge bases are allowed in a Free subscription.\n\nSome other limits can be found [here](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/limits).",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "Whats is QnA Maker Knowledge Base limits?",
+        "limit of knowledge base"
+      ],
+      "metadata": [],
+      "alternateQuestions": "[\r\n  {\r\n    \"clusterHead\": \"published knowledge base limit\",\r\n    \"totalAutoSuggestedCount\": 3,\r\n    \"totalUserSuggestedCount\": 0,\r\n    \"alternateQuestionList\": [\r\n      {\r\n        \"question\": \"published knowledge base limit\",\r\n        \"autoSuggestedCount\": 3,\r\n        \"userSuggestedCount\": 0\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"clusterHead\": \"limit of published knowledge base\",\r\n    \"totalAutoSuggestedCount\": 1,\r\n    \"totalUserSuggestedCount\": 0,\r\n    \"alternateQuestionList\": [\r\n      {\r\n        \"question\": \"limit of published knowledge base\",\r\n        \"autoSuggestedCount\": 1,\r\n        \"userSuggestedCount\": 0\r\n      }\r\n    ]\r\n  }\r\n]",
+      "alternateQuestionClusters": [
+        {
+          "clusterHead": "published knowledge base limit",
+          "totalAutoSuggestedCount": 3,
+          "totalUserSuggestedCount": 0,
+          "alternateQuestionList": [
+            {
+              "question": "published knowledge base limit",
+              "autoSuggestedCount": 3,
+              "userSuggestedCount": 0
+            }
+          ]
+        },
+        {
+          "clusterHead": "limit of published knowledge base",
+          "totalAutoSuggestedCount": 1,
+          "totalUserSuggestedCount": 0,
+          "alternateQuestionList": [
+            {
+              "question": "limit of published knowledge base",
+              "autoSuggestedCount": 1,
+              "userSuggestedCount": 0
+            }
+          ]
+        }
+      ],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 25,
+      "answer": "Azure Bot Service is Microsoft’s artificial intelligence (AI) chatbot offered as a service on the Azure cloud service marketplace. Azure Bot Service offers the ability to add intelligent agents that are capable of conversation without having to commit the resources to develop one’s own AI. The service can be added to websites, apps, email, GroupMe, Facebook Messenger, Kik, Skype, Slack, Microsoft Teams, Telegram, SMS, Twilio, Cortana and Skype for Business.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What is Azure Bot Service?",
+        "about azure bot service"
+      ],
+      "metadata": [],
+      "alternateQuestions": "[]",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 26,
+      "answer": "I can provide help you in queries related to Chat bot development with Azure Bot Service.",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "How can you help me?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 27,
+      "answer": "Try this -\n\n1. Close your `packages.config` file.\n\n2. Build\n\n3. Warning is gone.\n\nCheck more [here](https://stackoverflow.com/questions/7684398/the-packages-element-is-not-declared).",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "How to resolve \"The 'packages' element is not declared\" error in C# bot?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 28,
+      "answer": "Cloud services are sometimes deemed synonymous with [web services](https://searchmicroservices.techtarget.com/definition/Web-services-application-services). The two fields, although related, are not identical. A **web service** provides a way for applications or computers to communicate with each over the [World Wide Web](https://whatis.techtarget.com/definition/World-Wide-Web). So, web services are generally associated with [machine-to-machine](https://internetofthingsagenda.techtarget.com/definition/machine-to-machine-M2M) communications, while **cloud services** are generally associated with scenarios in which individuals or corporate customers consume the service -- users accessing office productivity tools via a SaaS-based application, for example.Some web services, however, may be closely intertwined with cloud services and their delivery to individuals and organizations. Cloud services, for instance, often use [RESTful web services](https://searchmicroservices.techtarget.com/definition/RESTful-API), which are based on [ representational state transfer (REST)](https://searchmicroservices.techtarget.com/definition/REST-representational-state-transfer) technology. REST is viewed as providing open and well-defined interfaces for application and infrastructure services.\n\n[Know more](https://searchitchannel.techtarget.com/definition/cloud-services).",
+      "source": "c5eb87fd-35db-4077-a8ca-8e800049b052-KB.tsv",
+      "questions": [
+        "What is difference between Cloud services and web services?"
+      ],
+      "metadata": [],
+      "alternateQuestions": "",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    },
+    {
+      "id": 29,
+      "answer": "Azure Bot Service; Azure Bot Service is Microsoft’s artificial intelligence (AI) chatbot offered as a service on the Azure cloud service marketplace; https://azure.microsoft.com/en-us/services/bot-service/ ; https://boing-m.azurewebsites.net/resources/images//azure-chatbot-diagram.png",
+      "source": "Editorial",
+      "questions": [
+        "Hero card"
+      ],
+      "metadata": [],
+      "alternateQuestions": "[]",
+      "alternateQuestionClusters": [],
+      "changeStatus": "NoChange",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "context": {
+        "isContextOnly": false,
+        "prompts": []
+      }
+    }
+  ]
+}

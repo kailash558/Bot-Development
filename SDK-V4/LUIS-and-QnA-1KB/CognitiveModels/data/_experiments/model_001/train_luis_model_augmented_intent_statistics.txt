@@ -1,0 +1,5 @@
+No	Intent	Utterance Count	Utterance Average Length	Utterance Maximum Length	Utterance Minimum Length	Utterance Length StdDev
+0	l_luis	62	21.46774	58	2	12.93327
+1	q_sample-qna	38	34.78947	78	3	16.5107
+2	None	20	15.95	48	4	11.14722
+ 	__ALL__	120	24.76667	78	2	15.52917

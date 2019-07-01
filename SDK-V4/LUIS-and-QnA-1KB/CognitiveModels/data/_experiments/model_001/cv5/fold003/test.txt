@@ -1,0 +1,28 @@
+Label	Weight	Text
+l_luis	1	what can you do
+l_luis	1	hello bot
+l_luis	1	good night
+l_luis	1	difference between cloud services and web services
+l_luis	1	different cloud technologies
+l_luis	1	create a bot with azure bot service
+l_luis	1	what can you help me with
+l_luis	1	tools need to develop a bot with azure
+l_luis	1	help me please
+l_luis	1	what is arm
+l_luis	1	multiple knowledge bases in c#
+l_luis	1	what cloud platforms are available in market
+None	1	there is a large deep dish pizza in your future.
+None	1	i would like to cancel
+None	1	what about chennai weather
+None	1	don't
+q_sample-qna	1	describe cloud service
+q_sample-qna	1	What is Microsoft Azure
+q_sample-qna	1	How to create a bot with Azure Bot Service
+q_sample-qna	1	What all tools do we need to develop a bot using Azure
+q_sample-qna	1	Getting 'address already in use :::3978' error
+q_sample-qna	1	How to develop a bot locally created in Azure
+q_sample-qna	1	Which cloud platforms are available in market
+q_sample-qna	1	how to use multiple knowledge bases in Node.js
+q_sample-qna	1	Hero card
+q_sample-qna	1	what are cloud services available
+q_sample-qna	1	How to connect a bot to emulator

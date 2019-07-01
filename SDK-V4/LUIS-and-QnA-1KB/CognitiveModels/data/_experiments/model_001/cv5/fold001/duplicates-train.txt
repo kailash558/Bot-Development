@@ -1,0 +1,7 @@
+Utterance	Intents
+what is azure bot service	l_luis, q_sample-qna
+what is luis	l_luis, q_sample-qna
+what is azure cloud service	l_luis, q_sample-qna
+what is cloud computing	l_luis, q_sample-qna
+what is bot framework emulator	l_luis, q_sample-qna
+hi	l_luis, q_sample-qna

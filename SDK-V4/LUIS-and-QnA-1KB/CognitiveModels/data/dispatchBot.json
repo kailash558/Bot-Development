@@ -1,0 +1,69 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "Dispatch",
+  "name": "dispatchBot",
+  "desc": "Dispatch model for dispatchBot",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "l_luis"
+    },
+    {
+      "name": "q_sample-qna"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [
+    {
+      "name": "i_0",
+      "mode": true,
+      "words": "what is azure,describe azure,about azure,tell me about azure,azure",
+      "activated": true
+    },
+    {
+      "name": "i_1",
+      "mode": true,
+      "words": "what is phrase list feature in luis?,what is phrase list feature?,phrase list feature in luis",
+      "activated": true
+    },
+    {
+      "name": "i_2",
+      "mode": true,
+      "words": "what are cloud services,what is cloud services,what is cloud service?",
+      "activated": true
+    },
+    {
+      "name": "i_3",
+      "mode": true,
+      "words": "hi,hello,hey,hiya",
+      "activated": true
+    },
+    {
+      "name": "i_4",
+      "mode": true,
+      "words": "different cloud services,different cloud platforms,cloud technologies,cloud service technologies,which cloud platforms are available in market?",
+      "activated": true
+    },
+    {
+      "name": "i_5",
+      "mode": true,
+      "words": "allowed knowledge bases,allowed kbs,allowed kb",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [],
+  "settings": [
+    {
+      "name": "NormalizeDiacritics",
+      "value": "true"
+    }
+  ]
+}

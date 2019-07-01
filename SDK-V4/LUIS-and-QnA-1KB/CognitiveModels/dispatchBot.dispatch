@@ -1,0 +1,37 @@
+{
+  "authoringRegion": "westus",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "services": [
+    {
+      "intentName": "l_luis",
+      "appId": "b92365ca-9dec-474a-b700-49b0d5d421aa",
+      "authoringKey": "2a33432adef64b798e4e587a8a85070d",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "azureBuddy-8960",
+      "id": "1"
+    },
+    {
+      "intentName": "q_sample-qna",
+      "kbId": "080f30ec-0b67-4d45-9359-a90c841281ba",
+      "subscriptionKey": "38f74c6c3f1e444ababd239dbafb7318",
+      "type": "qna",
+      "name": "Azure KB",
+      "id": "2"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2"
+  ],
+  "appId": "b5c0c82c-7a44-429e-a2b2-02af351ceeb5",
+  "authoringKey": "2a33432adef64b798e4e587a8a85070d",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "dispatchBot"
+}

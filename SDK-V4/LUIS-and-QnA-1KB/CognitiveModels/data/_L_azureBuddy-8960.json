@@ -1,0 +1,505 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "azureBuddy-8960",
+  "desc": "Default Intents for Azure Bot Service V2",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "azureBot"
+    },
+    {
+      "name": "cloudService"
+    },
+    {
+      "name": "Greeting"
+    },
+    {
+      "name": "Help"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Azure Bot Service",
+      "roles": []
+    },
+    {
+      "name": "Azure Cloud",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [
+    {
+      "name": "Azure",
+      "mode": true,
+      "words": "what is azure,describe azure,about azure,tell me about azure,azure",
+      "activated": true
+    },
+    {
+      "name": "LUIS",
+      "mode": true,
+      "words": "what is phrase list feature in luis?,what is phrase list feature?,phrase list feature in luis",
+      "activated": true
+    },
+    {
+      "name": "Cloud Service",
+      "mode": true,
+      "words": "what are cloud services,what is cloud services,what is cloud service?",
+      "activated": true
+    },
+    {
+      "name": "Greeting",
+      "mode": true,
+      "words": "hi,hello,hey,hiya",
+      "activated": true
+    },
+    {
+      "name": "Cloud Platforms",
+      "mode": true,
+      "words": "different cloud services,different cloud platforms,cloud technologies,cloud service technologies,which cloud platforms are available in market?",
+      "activated": true
+    },
+    {
+      "name": "Knowledge base",
+      "mode": true,
+      "words": "allowed knowledge bases,allowed kbs,allowed kb",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "abort",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "about knowledge base",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "about luis",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "bot's life cycle",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "cancel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "create a bot with azure bot service",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "create dispatch model",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "difference between cloud services and web services",
+      "intent": "cloudService",
+      "entities": []
+    },
+    {
+      "text": "different cloud technologies",
+      "intent": "cloudService",
+      "entities": []
+    },
+    {
+      "text": "disregard",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do not do it",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do not do that",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "don't",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "don't do it",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "don't do that",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "features of azure",
+      "intent": "azureBot",
+      "entities": [
+        {
+          "entity": "Azure Cloud",
+          "startPos": 12,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "features provided by azure bot service",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "good afternoon",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "good evening",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "good night",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hello bot",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help me",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help me please",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help please",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi bot",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hiya",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "how are you",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "how are you doing today?",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "how are you doing?",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "how are you today?",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "how far is the mountainn",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "how to create knowledge base",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "how to create luis app",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "how to deploy a node.js bot on azure",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "how to multiple knowledge bases in a single bot in node.js",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "how to use multiple knowledge bases in a single bot in c#",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "how to use multiple luis and qna models",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "i am stuck",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i would like to cancel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i'm stuck",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "limit of kb",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "multiple knowledge base in node.js",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "multiple knowledge bases in c#",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "my water bottle is green.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "never mind",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please cancel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please disregard",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "please help me",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "please stop",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "qna maker knowledge base limits",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "stop",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "the 'packages' element is not declared error",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "there is a large deep dish pizza in your future.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "tools need to develop a bot with azure",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "what about chennai weather?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what are cloud services",
+      "intent": "cloudService",
+      "entities": []
+    },
+    {
+      "text": "what can i say",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what can you do",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what can you help me with",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what cloud platforms are available in market",
+      "intent": "cloudService",
+      "entities": []
+    },
+    {
+      "text": "what do i do now?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what do i do?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what gbs transformation office does?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is arm",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "what is azure",
+      "intent": "azureBot",
+      "entities": [
+        {
+          "entity": "Azure Cloud",
+          "startPos": 8,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "what is azure bot service",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "what is azure cloud service",
+      "intent": "cloudService",
+      "entities": []
+    },
+    {
+      "text": "what is bot framework emulator",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "what is cloud computing",
+      "intent": "cloudService",
+      "entities": []
+    },
+    {
+      "text": "what is cloud service",
+      "intent": "cloudService",
+      "entities": []
+    },
+    {
+      "text": "what is dispatch",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "what is luis",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "what is microsoft bot framework",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "what is phrase list feature in luis?",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "what is resource manager",
+      "intent": "azureBot",
+      "entities": []
+    },
+    {
+      "text": "what is web service",
+      "intent": "cloudService",
+      "entities": []
+    },
+    {
+      "text": "what we do?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "why doesn't this work ?",
+      "intent": "Help",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
